@@ -17,10 +17,10 @@ spec:
     spec:
       containers:
         - name: app
-          image: farhansajid2/django-app-k8s
+          image: farhansajid2/django-app-k8s:final
           ports:
             - containerPort: 8990
-          command: [
+          args: [
   				"gunicorn",
   				"-w",
   				"4",

@@ -3,7 +3,7 @@ docker build -t farhansajid2/django-app-k8s:latest -t farhansajid2/django-app-k8
 
 
 # pushing the image to docker hub
-docker push farhansajid2/django-app-k8s:lastest
+docker push farhansajid2/django-app-k8s:latest
 docker push farhansajid2/django-app-k8s:$SHA
 
 # applying kubectl configs

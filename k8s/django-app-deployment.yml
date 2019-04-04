@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: farhansajid2/django-app-k8s:final
+          image: farhansajid2/django-app-k8s
           ports:
             - containerPort: 8990
           args: [

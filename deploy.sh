@@ -1,5 +1,5 @@
 # building the images
-docker build -t farhansajid/django-app-k8s:latest -t farhansajid2/django-app-k8s:$SHA -f ./docker/prod/Dockerfile .
+docker build -t farhansajid2/django-app-k8s:latest -t farhansajid2/django-app-k8s:$SHA -f ./docker/prod/Dockerfile .
 
 
 # pushing the image to docker hub
